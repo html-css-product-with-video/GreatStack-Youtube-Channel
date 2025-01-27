@@ -1,0 +1,160 @@
+
+/* Universal selector to reset default styles */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    list-style: none;
+    text-decoration: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background: #42455a;
+}
+.menu ul{
+    display: inline-flex;
+    margin: 50px;
+}
+.menu ul li{
+    margin: 0 20px;
+    color: #b2b1b1;
+    cursor: pointer;
+}
+.logo img{
+    width: 45px;
+    margin-top: -12px;
+    margin-right: 48px;
+}
+.active{
+    color: #19dafa !important;
+}
+.signUp-btn{
+    top: 50px;
+    right: 80px;
+    position: absolute;
+    color: #fff;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    background-image:
+        linear-gradient(#42455a, #42455a),
+        radial-gradient(circle at top left, #fd00da, #19d7f8);
+
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+}
+.signUp-btn span{
+    display: block;
+    padding: 8px 22px;
+}
+.banner{
+    position: absolute;
+    width: 80%;
+    height: 70%;
+    top: 25%;
+    left: 130px;
+    color: #fff;
+}
+.app-text{
+    width: 50%;
+    float: left;
+}
+.app-text h1{
+    font-size: 43px;
+    width: 640px;
+    position: relative;
+    margin-left: 40px;
+}
+.app-text p{
+    width: 650px;
+    font-size: 15px;
+    margin: 30px 0 30px 40px;
+    line-height: 25px;
+    color: #919191;
+}
+.app-picture{
+    width: 50%;
+    float: right;
+}
+.app-picture img{
+    width: 100%;
+    float: right;
+    margin-top: -100px;
+    padding-left: 50px;
+}
+.play-btn{
+    margin-left: 40px;
+    display: inline-flex;
+}
+.play-btn-inner{
+    width: 50px;
+    height: 50px;
+    border: 2px solid transparent;
+    border-radius: 50%;
+    background-image:
+        linear-gradient(#42455a, #42455a),
+        radial-gradient(circle at top left, #fd00da, #19d7f8);
+
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    text-align: center;
+}
+.play-btn-inner .bx-play{
+    padding: 10px 0;
+    font-size: 25px;
+    cursor: pointer;
+}
+small{
+    margin: auto 15px;
+    cursor: pointer;
+    font-size: 15px;
+    color: #19dafa;
+    letter-spacing: 1px;
+}
+.quick-links{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: linear-gradient(to right, #fd00da, #19d7f8)
+}
+.quick-links ul{
+    display: inline-flex;
+    margin: 30px auto;
+    text-align: center;
+}
+.quick-links ul li{
+    margin: 0 50px;
+    cursor: pointer;
+}
+.quick-links ul li .bx{
+    font-size: 25px;
+    color: #fff;
+}
+.quick-links ul li p{
+    margin-top: 15px;
+    font-size: 10px;
+    color: #fff;
+}
+.social-icons{
+    position: absolute;
+    bottom: 35px;
+    right: 72px;
+}
+.social-icons ul li{
+    margin-top: 15px;
+    text-align: center;
+}
+.social-icons ul li a{
+    width: 30px;
+    height: 30px;
+    color: #999;
+    border-radius: 50%;
+    border: 1px solid #999;
+    padding: 5px;
+    display: block;
+}

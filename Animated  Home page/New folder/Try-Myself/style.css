@@ -15,7 +15,7 @@ header{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    padding: 20px 10%;
+    padding: 20px 10% 0 20%;
     position: relative;
     overflow: hidden;
 }
@@ -74,39 +74,16 @@ nav{
 }
 .main-header h1{
     font-size: 70px;
-    animation-delay: 0.5s;
-}
-.main-header p{
-    animation-delay: 0.5s;
 }
 .main-header .btn{
     padding: 10px 40px;
     margin-top: 15px;
-    animation-delay: 0.8s;
 }
 header > img{
     position: absolute;
     top: 15%;
     right: 4%;
     width: 600px;
-    border-radius: 50%;
-    border-bottom:  1px solid  #df4881;
-    
-}
-.feature-img.anim{
-    animation-delay: 1.2s;
-}
-.anim{
-    opacity: 0;
-    transform: translateY(30px);
-    animation: moveUp 0.5s linear forwards;
-}
-
-@keyframes moveUp{
-    100%{
-        opacity: 1;
-        transform: translateY(0);
-    }
 }
 
 /* navigation menu  */
@@ -121,6 +98,7 @@ header > img{
     }
     header{
         padding: 20px 5%;
+        border: 1px solid red;
     }
     nav{
         width: 100%;
